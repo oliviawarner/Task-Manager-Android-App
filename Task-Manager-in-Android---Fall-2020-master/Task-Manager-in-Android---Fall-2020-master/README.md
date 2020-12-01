@@ -1,5 +1,2 @@
-# TaskManger
-Task Manager Application for Android devices 
-
-Will have Details and Services tabs 
-these tabs will have services listed and the details and associated with them 
+# Task Android Application
+This folder skips through ignored folders and files. There is also a zipped project folder to view unignored files.
