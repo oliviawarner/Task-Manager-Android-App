@@ -4,3 +4,5 @@ the details, services, and CPU utilization. To use the application, a device mus
 gather the operating system information. 
 * Slippery Rock University 464 Operating Systems Semester Project
 * Other collaborator: Xavier Julius (xjj1002)
+
+*You may view the zipped folder or the folder with ignored files and folders*
