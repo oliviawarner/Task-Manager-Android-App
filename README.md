@@ -5,4 +5,5 @@ gather the operating system information.
 * Slippery Rock University 464 Operating Systems Semester Project
 * Other collaborator: Xavier Julius (xjj1002)
 
-*You may view the zipped folder or the folder with ignored files and folders*
+*This project was originally on the Professor's private repository. The project was downloaded and put onto this repository (hence just the project folders).
+You may view the zipped folder or the folder with ignored files and folders*
