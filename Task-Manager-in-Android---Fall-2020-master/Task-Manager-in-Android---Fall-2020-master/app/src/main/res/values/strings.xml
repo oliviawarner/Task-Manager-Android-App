@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <string name="tab_text_1">Details</string>
+    <string name="tab_text_2">Services</string>
+    <string name="tab_text_3">CPU</string>
+    <string name="app_details">APP DETAILS</string>
+    <string name="splash_description">task manager logo for splash screen</string>
+    <string name="bottom_splash_txt">Task Manager</string>
+    <string name="view_running_btn">View Running</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.ServicesFrag">
+
+    <!--search view for both running and all services-->
+    <SearchView
+        android:id="@+id/filterServices"
+        android:layout_width="413dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="4dp"
+        android:queryHint="Search services..."
+        app:layout_constraintBottom_toTopOf="@+id/servicesList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <!--all services list view-->
+    <ListView
+        android:id="@+id/servicesList"
+        android:layout_width="410dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <!--running list view-->
+    <ListView
+        android:id="@+id/runningList"
+        android:layout_width="410dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filterServices"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <!--Running floating action btn-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/runningS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/running_icon"
+        app:backgroundTint="#5E35B1"
+        app:layout_constraintBottom_toTopOf="@+id/regS"
+        app:layout_constraintEnd_toEndOf="@+id/regS"
+        app:layout_constraintStart_toStartOf="@+id/regS" />
+
+    <!--Running text view-->
+    <TextView
+        android:id="@+id/running_btn_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:text="@string/view_running_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/runningS"
+        app:layout_constraintEnd_toStartOf="@+id/runningS"
+        app:layout_constraintTop_toTopOf="@+id/runningS" />
+
+    <!--info services floating action button-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/regS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@android:drawable/ic_dialog_info"
+        app:backgroundTint="#5E35B1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

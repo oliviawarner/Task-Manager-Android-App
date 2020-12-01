@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Source: https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver-->
+<!--device admin uses policy list... not 100% sure what we are going to use in this permission yet if anything at all-->
+<device_admin>
+    <uses-policies>
+
+    </uses-policies>
+</device_admin>
+
+
+
+
